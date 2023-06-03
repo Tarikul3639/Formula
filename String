@@ -11,7 +11,7 @@
  
  int le = s.length();                    /// String size count
  
- 
+ getline(cin,s);                        /// string import with space
  
  
  
