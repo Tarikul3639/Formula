@@ -1,6 +1,6 @@
- x.push_back(value);           /// এরেতে ডাটা ইনপুট
+x.push_back(value);           /// এরেতে ডাটা ইনপুট
     
- sort(x.begin(), x.end());    /// ছোট থেকে বর প্রিন্ট
+sort(x.begin(), x.end());    /// ছোট থেকে বর প্রিন্ট
     
 reverse(x.begin(), x.end()); /// শেষ থেকে শুরু প্রিন্ট
     
