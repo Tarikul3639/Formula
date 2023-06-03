@@ -1,0 +1,17 @@
+ for (int i = 0; i < le; i++)
+    {
+        if (s[i] != ' ')
+        {                                  /// space remove from anny string
+            s2[j] = s[i];
+            j++;
+        }
+    }
+    
+ 
+ 
+ int le = s.length();                    /// String size count
+ 
+ 
+ 
+ 
+ 
