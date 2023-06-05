@@ -13,8 +13,6 @@
  
  getline(cin,s);                        /// string import with space
  
- 
- 
  x.erase(remove(x.begin(),x.end(),' '),x.end());       //remove spacific charecter in c++
  
  
