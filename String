@@ -17,3 +17,10 @@
  
  
  
+  if(s1.compare(s2)==0)
+    {
+        cout << "Equal" << nn;       /// String compare function
+    }
+ 
+ 
+ 
