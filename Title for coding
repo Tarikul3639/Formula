@@ -1,10 +1,12 @@
-/*          Bismillahir Rahmanir Rahim
-                   ALLAHU AKBAR
-
-           ***Author : Tarikul islam
-     Bangladesh University of Business and Technology.
-                ** Dept.of CSE.  */
-
+/*##################################################################
+ #                   Bismillahir Rahmanir Rahim                    #
+ #                         ALLAHU AKBAR                            #
+ #                                                                 #
+ #                  ***Author : Tarikul islam                      #
+ #        Bangladesh University of Business and Technology,(BUBT)  #
+ #                      ** Dept.of CSE.                            # 
+###################################################################*/ 
+                                                          
 #include <bits/stdc++.h>
 using namespace std;
 #define    ll              long long
@@ -14,6 +16,7 @@ using namespace std;
 #define    pb              push_back
 #define    asort(a)        sort(a.begin(),a.end())
 #define    arev(a)         reverse(a.begin(),a.end())
+#define    sp              " "
 int main()
 {
 
