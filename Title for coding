@@ -7,10 +7,13 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long
-#define nn '\n'
-#define EPS 1e-9
-#define PI 3.1415926535897932384626433832795
+#define    ll              long long
+#define    nn              '\n'
+#define    EPS             1e-9
+#define    PI              3.1415926535897932384626433832795
+#define    pb              push_back
+#define    asort(a)        sort(a.begin(),a.end())
+#define    arev(a)         reverse(a.begin(),a.end())
 int main()
 {
 
