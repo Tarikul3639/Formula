@@ -21,3 +21,7 @@ using namespace std;
     ll t;     \
     cin >> t; \
     while (t--)
+int main()
+{
+    return 0;
+}
