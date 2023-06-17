@@ -3,3 +3,5 @@ result = pow(2, i);        ///এটা দিয়ে পাওয়ার বে�
 cout << min(x1, min(x2, x3)) << nn;   ///সবচেয়ে ছোট ভেলো আউটপুট দিবে; 
 
  v.erase(remove(v.begin(),v.end(),Element_number),v.end());     ///specific element remove without specific position;
+
+if((number & (number-1))==0)          //2^n হলে প্রিন্ট
