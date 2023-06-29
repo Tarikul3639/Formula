@@ -16,6 +16,8 @@ using namespace std;
 #define pb push_back
 #define asort(a) sort(a.begin(), a.end())
 #define areverse(a) reverse(a.begin(), a.end())
+#define no cout << "NO" << nn
+#define yes cout << "YES" << nn
 #define sp " "
 #define test  \
     ll t;     \
