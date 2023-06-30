@@ -1,10 +1,11 @@
+
 /*##################################################################
- #                   Bismillahir Rahmanir Rahim                    #
- #                         ALLAHU AKBAR                            #
- #                                                                 #
- #                  ***Author : TARIKUL ISLAM                      #
- #        Bangladesh University of Business and Technology,(BUBT)  #
- #                      ** Dept.of CSE.                            #
+#                   Bismillahir Rahmanir Rahim                    #
+#                         ALLAHU AKBAR                            #
+#                                                                 #
+#                  ***Author : TARIKUL ISLAM                      #
+#        Bangladesh University of Business and Technology,(BUBT)  #
+#                      ** Dept.of CSE.                            #
 ###################################################################*/
 
 #include <bits/stdc++.h>
@@ -16,27 +17,41 @@ using namespace std;
 #define pb push_back
 #define asort(a) sort(a.begin(), a.end())
 #define areverse(a) reverse(a.begin(), a.end())
-#define sp " "
 #define no cout << "NO" << nn
 #define yes cout << "YES" << nn
+#define sp " "
 #define test  \
     ll t;     \
     cin >> t; \
     while (t--)
 int main()
 {
-    map<string, int> mp;
+
+    map<string /*int*/, int> mp;
     int n;
-    int c = 0;
     cin >> n;
+    for (int i = 0; i < n; i++)
+    {
+        string /*int*/ a;
+        cin >> a; /// map element import
+        mp[a]++;
+    }
+    for (auto it : mp)
+    {
+
+        cout << it.first << sp; /// map element print
+    }
+    mp.clear();
     for (int i = 0; i < n; i++)
     {
         string s;
         cin >> s;
-        if (mp[s] == 0) no;
+        if (mp[s] == 0)
+            no; /// Duplicate elements count
 
-        else yes;
-         mp[s]++;
+        else
+            yes;
+        mp[s]++;
     }
 
     return 0;
