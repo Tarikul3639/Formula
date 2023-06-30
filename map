@@ -33,13 +33,13 @@ int main()
     for (int i = 0; i < n; i++)
     {
         string /*int*/ a;
-        cin >> a;                      /// map element import
+        cin >> a; /// map element import
         mp[a]++;
     }
-    for (auto it : mp)
+    for (auto it : mp) /*for (auto it = mp.begin(); it != mp.end(); it++)*/
     {
 
-        cout << it.first << sp;       /// map element print
+        cout << it.first << sp; /*cout <<  it->first << sp;*/ // map element print
     }
     mp.clear();
     for (int i = 0; i < n; i++)
@@ -47,7 +47,7 @@ int main()
         string s;
         cin >> s;
         if (mp[s] == 0)
-            no;                       /// Duplicate elements count
+            no; /// Duplicate elements count
 
         else
             yes;
