@@ -1,29 +1,20 @@
+//**************************************************frequency count in map****************************************************************
+//****************************************************************************************************************************************
+    string maax;
+    int currentMax = 0;
+    for (auto it = mapname.begin(); it != mapname.end(); it++)
+    {
+        if (it->second > currentMax)
+        {
+            currentMax = it->second;
+            maax = it->first;
+        }
+    }
 
-/*##################################################################
-#                   Bismillahir Rahmanir Rahim                    #
-#                         ALLAHU AKBAR                            #
-#                                                                 #
-#                  ***Author : TARIKUL ISLAM                      #
-#        Bangladesh University of Business and Technology,(BUBT)  #
-#                      ** Dept.of CSE.                            #
-###################################################################*/
+    cout << maax << endl;
+//**********************************************************map element print in map*************************************************
+//****************************************************************************************************************************************
 
-#include <bits/stdc++.h>
-using namespace std;
-#define ll long long
-#define nn '\n'
-#define EPS 1e-9
-#define PI 3.1415926535897932384626433832795
-#define pb push_back
-#define asort(a) sort(a.begin(), a.end())
-#define areverse(a) reverse(a.begin(), a.end())
-#define no cout << "NO" << nn
-#define yes cout << "YES" << nn
-#define sp " "
-#define test  \
-    ll t;     \
-    cin >> t; \
-    while (t--)
 int main()
 {
 
