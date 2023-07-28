@@ -1,0 +1,47 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define nn '\n'
+#define EPS 1e-9
+#define PI 3.1415926535897932384626433832795
+#define pb push_back
+#define asort(a) sort(a.begin(), a.end())
+#define areverse(a) reverse(a.begin(), a.end())
+#define forn(i, n) for (int i = 0; i < int(n); i++)
+#define sp " "
+#define test  \
+    ll t;     \
+    cin >> t; \
+    while (t--)
+int main()
+{
+  
+        int n1;
+        cin >> n1;
+        vector<ll> v;
+        for (int i = 0; i < n1; i++)
+        {
+            int x;
+            cin >> x;
+            v.pb(x);
+        }
+
+        vector<pair<ll, ll>> s;
+        for (int i = 0; i < n1; i++)
+        {
+            s.pb({v[i], i + 1});
+        }
+
+        sort(s.begin(), s.end(), [&](pair<ll, ll> x, pair<ll, ll> y) {
+            if (x.first == y.first)
+                return x.second < y.second;
+            return x.first > y.first;
+        });
+
+        for (auto i : s)
+        {
+            cout << i.second << " ";
+        }
+       
+    return 0;
+}
