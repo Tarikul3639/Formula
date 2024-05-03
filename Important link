@@ -35,3 +35,14 @@ git push -u origin main
 git remote add origin https://github.com/Tarikul3639/Test.git
 git branch -M main
 git push -u origin main
+
+
+///////////////////////////////////////////////////////////////////
+                Terminal to GitHub
+///////////////////////////////////////////////////////////////////
+
+git add .
+git status
+git commit -m "Comment"
+git push origin main
+
