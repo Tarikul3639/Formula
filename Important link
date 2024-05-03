@@ -24,9 +24,9 @@ https://archive.org/                                     /// Islamic Book downlo
 https://www.typingclub.com/sportal/program-3.game       /// Typing exercise website
 
 
-echo "# Test" >> README.md
+
 git init
-git add README.md
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Tarikul3639/Test.git
@@ -41,8 +41,9 @@ git push -u origin main
                 Terminal to GitHub
 ///////////////////////////////////////////////////////////////////
 
-git add .
-git status
-git commit -m "Comment"
-git push origin main
+            git add .
+            git status
+            git commit -m "Comment"
+            git push origin main
 
+///////////////////////////////////////////////////////////////////
