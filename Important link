@@ -25,6 +25,19 @@ https://www.typingclub.com/sportal/program-3.game           /// Typing exercise 
 
 ````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 ````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+VScode to GitHub
+................
+Git init
+git add .
+git commit -m "test3"
+Git status
+git remote remove origin
+git remote add origin https://github.com/Tarikul3639/GitHub.git
+git remote -v
+git branch
+git push -f origin main  /// remove previous all file
+
+
 
 
 ///////////////////////////////////////////////////////////////////
